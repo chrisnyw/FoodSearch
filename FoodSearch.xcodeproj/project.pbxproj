@@ -10,8 +10,8 @@
 		18BC187D2D5C211A000B0DF1 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 18BC187C2D5C211A000B0DF1 /* ViewInspector */; };
 		18D0C6FF2D4DC7160000F7EC /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D0C6FE2D4DC7160000F7EC /* Intents.framework */; };
 		18D0C70A2D4DC7170000F7EC /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D0C7092D4DC7170000F7EC /* IntentsUI.framework */; };
-		18D0C7142D4DC7170000F7EC /* TestIntentUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 18D0C7082D4DC7170000F7EC /* TestIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		18D0C7172D4DC7170000F7EC /* TestIntent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 18D0C6FC2D4DC7160000F7EC /* TestIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18D0C7142D4DC7170000F7EC /* FoodIntentUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 18D0C7082D4DC7170000F7EC /* FoodIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18D0C7172D4DC7170000F7EC /* FoodIntent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 18D0C6FC2D4DC7160000F7EC /* FoodIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		18D874212D56DB62001D2F91 /* SwiftLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 18D874202D56DB62001D2F91 /* SwiftLocation */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +46,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				18D0C7172D4DC7170000F7EC /* TestIntent.appex in Embed Foundation Extensions */,
-				18D0C7142D4DC7170000F7EC /* TestIntentUI.appex in Embed Foundation Extensions */,
+				18D0C7172D4DC7170000F7EC /* FoodIntent.appex in Embed Foundation Extensions */,
+				18D0C7142D4DC7170000F7EC /* FoodIntentUI.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,36 +55,36 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		18D0C6FC2D4DC7160000F7EC /* TestIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D0C6FC2D4DC7160000F7EC /* FoodIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FoodIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D0C6FE2D4DC7160000F7EC /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
-		18D0C7082D4DC7170000F7EC /* TestIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D0C7082D4DC7170000F7EC /* FoodIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FoodIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D0C7092D4DC7170000F7EC /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
 		488734172CDCA2DB00B400A3 /* FoodSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		488734292CDCA2DD00B400A3 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		18D0C71B2D4DC7170000F7EC /* Exceptions for "TestIntentUI" folder in "TestIntentUI" target */ = {
+		18D0C71B2D4DC7170000F7EC /* Exceptions for "FoodIntentUI" folder in "FoodIntentUI" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 18D0C7072D4DC7170000F7EC /* TestIntentUI */;
+			target = 18D0C7072D4DC7170000F7EC /* FoodIntentUI */;
 		};
-		18D0C71F2D4DC7170000F7EC /* Exceptions for "TestIntent" folder in "TestIntent" target */ = {
+		18D0C71F2D4DC7170000F7EC /* Exceptions for "FoodIntent" folder in "FoodIntent" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 18D0C6FB2D4DC7160000F7EC /* TestIntent */;
+			target = 18D0C6FB2D4DC7160000F7EC /* FoodIntent */;
 		};
-		18D0C7232D4DD1E50000F7EC /* Exceptions for "FoodSearch" folder in "TestIntent" target */ = {
+		18D0C7232D4DD1E50000F7EC /* Exceptions for "FoodSearch" folder in "FoodIntent" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Intents/SearchFoodIntent.intentdefinition,
 				Intents/SearchFoodIntentHandler.swift,
 			);
-			target = 18D0C6FB2D4DC7160000F7EC /* TestIntent */;
+			target = 18D0C6FB2D4DC7160000F7EC /* FoodIntent */;
 		};
 		18F51D452D4D7C090060DC9D /* Exceptions for "FoodSearch" folder in "FoodSearch" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -96,27 +96,27 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		18D0C7002D4DC7160000F7EC /* TestIntent */ = {
+		18D0C7002D4DC7160000F7EC /* FoodIntent */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				18D0C71F2D4DC7170000F7EC /* Exceptions for "TestIntent" folder in "TestIntent" target */,
+				18D0C71F2D4DC7170000F7EC /* Exceptions for "FoodIntent" folder in "FoodIntent" target */,
 			);
-			path = TestIntent;
+			path = FoodIntent;
 			sourceTree = "<group>";
 		};
-		18D0C70B2D4DC7170000F7EC /* TestIntentUI */ = {
+		18D0C70B2D4DC7170000F7EC /* FoodIntentUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				18D0C71B2D4DC7170000F7EC /* Exceptions for "TestIntentUI" folder in "TestIntentUI" target */,
+				18D0C71B2D4DC7170000F7EC /* Exceptions for "FoodIntentUI" folder in "FoodIntentUI" target */,
 			);
-			path = TestIntentUI;
+			path = FoodIntentUI;
 			sourceTree = "<group>";
 		};
 		488734192CDCA2DB00B400A3 /* FoodSearch */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				18F51D452D4D7C090060DC9D /* Exceptions for "FoodSearch" folder in "FoodSearch" target */,
-				18D0C7232D4DD1E50000F7EC /* Exceptions for "FoodSearch" folder in "TestIntent" target */,
+				18D0C7232D4DD1E50000F7EC /* Exceptions for "FoodSearch" folder in "FoodIntent" target */,
 			);
 			path = FoodSearch;
 			sourceTree = "<group>";
@@ -178,8 +178,8 @@
 			children = (
 				488734192CDCA2DB00B400A3 /* FoodSearch */,
 				4887342C2CDCA2DD00B400A3 /* UnitTests */,
-				18D0C7002D4DC7160000F7EC /* TestIntent */,
-				18D0C70B2D4DC7170000F7EC /* TestIntentUI */,
+				18D0C7002D4DC7160000F7EC /* FoodIntent */,
+				18D0C70B2D4DC7170000F7EC /* FoodIntentUI */,
 				18D0C6FD2D4DC7160000F7EC /* Frameworks */,
 				488734182CDCA2DB00B400A3 /* Products */,
 			);
@@ -190,8 +190,8 @@
 			children = (
 				488734172CDCA2DB00B400A3 /* FoodSearch.app */,
 				488734292CDCA2DD00B400A3 /* UnitTests.xctest */,
-				18D0C6FC2D4DC7160000F7EC /* TestIntent.appex */,
-				18D0C7082D4DC7170000F7EC /* TestIntentUI.appex */,
+				18D0C6FC2D4DC7160000F7EC /* FoodIntent.appex */,
+				18D0C7082D4DC7170000F7EC /* FoodIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,9 +199,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18D0C6FB2D4DC7160000F7EC /* TestIntent */ = {
+		18D0C6FB2D4DC7160000F7EC /* FoodIntent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18D0C71C2D4DC7170000F7EC /* Build configuration list for PBXNativeTarget "TestIntent" */;
+			buildConfigurationList = 18D0C71C2D4DC7170000F7EC /* Build configuration list for PBXNativeTarget "FoodIntent" */;
 			buildPhases = (
 				18D0C6F82D4DC7160000F7EC /* Sources */,
 				18D0C6F92D4DC7160000F7EC /* Frameworks */,
@@ -212,18 +212,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				18D0C7002D4DC7160000F7EC /* TestIntent */,
+				18D0C7002D4DC7160000F7EC /* FoodIntent */,
 			);
-			name = TestIntent;
+			name = FoodIntent;
 			packageProductDependencies = (
 			);
 			productName = TestIntent;
-			productReference = 18D0C6FC2D4DC7160000F7EC /* TestIntent.appex */;
+			productReference = 18D0C6FC2D4DC7160000F7EC /* FoodIntent.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		18D0C7072D4DC7170000F7EC /* TestIntentUI */ = {
+		18D0C7072D4DC7170000F7EC /* FoodIntentUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18D0C7182D4DC7170000F7EC /* Build configuration list for PBXNativeTarget "TestIntentUI" */;
+			buildConfigurationList = 18D0C7182D4DC7170000F7EC /* Build configuration list for PBXNativeTarget "FoodIntentUI" */;
 			buildPhases = (
 				18D0C7042D4DC7170000F7EC /* Sources */,
 				18D0C7052D4DC7170000F7EC /* Frameworks */,
@@ -234,13 +234,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				18D0C70B2D4DC7170000F7EC /* TestIntentUI */,
+				18D0C70B2D4DC7170000F7EC /* FoodIntentUI */,
 			);
-			name = TestIntentUI;
+			name = FoodIntentUI;
 			packageProductDependencies = (
 			);
 			productName = TestIntentUI;
-			productReference = 18D0C7082D4DC7170000F7EC /* TestIntentUI.appex */;
+			productReference = 18D0C7082D4DC7170000F7EC /* FoodIntentUI.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		488734162CDCA2DB00B400A3 /* FoodSearch */ = {
@@ -339,8 +339,8 @@
 			targets = (
 				488734162CDCA2DB00B400A3 /* FoodSearch */,
 				488734282CDCA2DD00B400A3 /* UnitTests */,
-				18D0C6FB2D4DC7160000F7EC /* TestIntent */,
-				18D0C7072D4DC7170000F7EC /* TestIntentUI */,
+				18D0C6FB2D4DC7160000F7EC /* FoodIntent */,
+				18D0C7072D4DC7170000F7EC /* FoodIntentUI */,
 			);
 		};
 /* End PBXProject section */
@@ -410,12 +410,12 @@
 /* Begin PBXTargetDependency section */
 		18D0C7132D4DC7170000F7EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18D0C7072D4DC7170000F7EC /* TestIntentUI */;
+			target = 18D0C7072D4DC7170000F7EC /* FoodIntentUI */;
 			targetProxy = 18D0C7122D4DC7170000F7EC /* PBXContainerItemProxy */;
 		};
 		18D0C7162D4DC7170000F7EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18D0C6FB2D4DC7160000F7EC /* TestIntent */;
+			target = 18D0C6FB2D4DC7160000F7EC /* FoodIntent */;
 			targetProxy = 18D0C7152D4DC7170000F7EC /* PBXContainerItemProxy */;
 		};
 		4887342B2CDCA2DD00B400A3 /* PBXTargetDependency */ = {
@@ -432,8 +432,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestIntentUI/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TestIntentUI;
+				INFOPLIST_FILE = FoodIntentUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FoodIntentUI;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Chris Ng. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -442,7 +442,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chrisnyw.foodsearch.TestIntentUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisnyw.foodsearch.FoodIntentUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -457,8 +457,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestIntentUI/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TestIntentUI;
+				INFOPLIST_FILE = FoodIntentUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FoodIntentUI;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Chris Ng. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,7 +467,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chrisnyw.foodsearch.TestIntentUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisnyw.foodsearch.FoodIntentUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -482,8 +482,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestIntent/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TestIntent;
+				INFOPLIST_FILE = FoodIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FoodIntent;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Chris Ng. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,7 +492,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chrisnyw.foodsearch.TestIntent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisnyw.foodsearch.FoodIntent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -507,8 +507,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestIntent/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TestIntent;
+				INFOPLIST_FILE = FoodIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FoodIntent;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Chris Ng. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -517,7 +517,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chrisnyw.foodsearch.TestIntent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisnyw.foodsearch.FoodIntent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -770,7 +770,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18D0C7182D4DC7170000F7EC /* Build configuration list for PBXNativeTarget "TestIntentUI" */ = {
+		18D0C7182D4DC7170000F7EC /* Build configuration list for PBXNativeTarget "FoodIntentUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18D0C7192D4DC7170000F7EC /* Debug */,
@@ -779,7 +779,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18D0C71C2D4DC7170000F7EC /* Build configuration list for PBXNativeTarget "TestIntent" */ = {
+		18D0C71C2D4DC7170000F7EC /* Build configuration list for PBXNativeTarget "FoodIntent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18D0C71D2D4DC7170000F7EC /* Debug */,

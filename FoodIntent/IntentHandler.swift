@@ -1,6 +1,6 @@
 //
 //  IntentHandler.swift
-//  TestIntent
+//  FoodIntent
 //
 //  Created by Chris Ng on 2025-01-31.
 //  Copyright © 2025 Chris Ng. All rights reserved.
