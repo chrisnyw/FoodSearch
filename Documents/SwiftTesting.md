@@ -15,13 +15,6 @@ This the summary of the annotations in the latest Swift Testing framework
 |---------------|---------|
 | `@Suite`      | Defines a test suite (group of related tests). |
 | `@Test`       | Marks a function as a test case. |
-| `@BeforeEach` | Runs **before each** test method in the suite. |
-| `@AfterEach`  | Runs **after each** test method. |
-| `@BeforeAll`  | Runs **once before all** tests in the suite. |
-| `@AfterAll`   | Runs **once after all** tests in the suite. |
-| `@Skip`       | Skips the test case (like `xit` in Quick). |
-| `@Timeout`    | Sets a **maximum time limit** for a test. |
-| `@ParameterizedTest` | Runs the test **with multiple inputs**. (Upcoming Feature) |
 
 ## Demostration
 Refernce to [FoodsInteractorTests](../UnitTests/Mocks/Interactors/FoodsInteractorTests.swift) for the sample usages of the Swift Testing basic `@Suite` and `@Test` annotations. There are serveral unit tests to demonstrate how to mock the data and services to test out the functions written in `FoodsInteractorTests`.
