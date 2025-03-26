@@ -17,6 +17,11 @@ In addition to the core features, this app primarily demonstrates how to integra
 <img src="https://github.com/user-attachments/assets/18589279-2506-4a75-99b8-b89d9267b5a8" width="200" title="App Demo 3" alt="App Demo 3"/>
 </figure>
 
+## Siri Demo
+<figure>
+<img src="https://github.com/user-attachments/assets/5a627147-3713-471f-a187-0cb7626a1d9c" title="Siri Demo" alt="Siri Demo"/>
+</figure>
+
 ## Credits
 
 This project uses the following third-party packages and APIs:
